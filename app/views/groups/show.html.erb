@@ -3,9 +3,9 @@
 
     <span class="pull-right">
         <% if current_user && current_user.is_member_of?(@group) %>
-          <lable class="lable lable-success"> 群组成员 </lable>
+          <label class="label label-success"> 群组成员 </label>
         <% else %>
-          <lable class="lable lable-waring"> 不是群组成员 </lable>
+          <label class="label label-waring"> 不是群组成员 </label>
         <% end %>
     </span>
 
