@@ -20,4 +20,5 @@ class User < ApplicationRecord
     participated_groups.delete(group)
   end
 
+
 end
